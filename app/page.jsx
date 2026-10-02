@@ -49,7 +49,7 @@ export default function Home() {
         <HangingCard />
       </section>
       <section id="about-me">
-        <SectionTitle label="About me" title="The person behind the pixels" />
+        <SectionTitle label="About me" title="The developer behind the code" />
         <AboutCards />
       </section>
       <section id="work">

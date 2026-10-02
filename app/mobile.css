@@ -97,8 +97,11 @@
   }
 
   .about-person .portrait {
-    height: clamp(210px, 58vw, 260px);
-    object-position: 50% 30%;
+    display: block;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 3 / 4;
+    object-fit: contain;
   }
 
   .about-person-copy {
@@ -690,6 +693,20 @@
 
   .footer-signature {
     margin-top: 18px;
+  }
+}
+
+/* Wider mobile screens have room for the full portrait beside the copy. */
+@media (min-width: 600px) and (max-width: 809.98px) {
+  .about-person {
+    display: grid;
+    grid-template-columns: minmax(0, 0.85fr) minmax(0, 1fr);
+    align-items: center;
+    background: var(--surface);
+  }
+
+  .about-person .portrait {
+    border-radius: 24px 0 0 24px;
   }
 }
 
