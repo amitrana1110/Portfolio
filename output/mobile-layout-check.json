@@ -1,0 +1,258 @@
+{
+  "results": [
+    {
+      "width": 320,
+      "route": "/",
+      "scrollWidth": 320,
+      "smallFields": 0
+    },
+    {
+      "width": 320,
+      "route": "/contact",
+      "scrollWidth": 320,
+      "smallFields": 0
+    },
+    {
+      "width": 320,
+      "route": "/projects/haldiram-d2c",
+      "scrollWidth": 320,
+      "smallFields": 0
+    },
+    {
+      "width": 320,
+      "route": "/projects/aditya-birla-calculator",
+      "scrollWidth": 320,
+      "smallFields": 0
+    },
+    {
+      "width": 320,
+      "route": "/projects/full-stack-ecommerce",
+      "scrollWidth": 320,
+      "smallFields": 0
+    },
+    {
+      "width": 320,
+      "route": "/projects/taxi-booking",
+      "scrollWidth": 320,
+      "smallFields": 0
+    },
+    {
+      "width": 375,
+      "route": "/",
+      "scrollWidth": 375,
+      "smallFields": 0
+    },
+    {
+      "width": 375,
+      "route": "/contact",
+      "scrollWidth": 375,
+      "smallFields": 0
+    },
+    {
+      "width": 375,
+      "route": "/projects/haldiram-d2c",
+      "scrollWidth": 375,
+      "smallFields": 0
+    },
+    {
+      "width": 375,
+      "route": "/projects/aditya-birla-calculator",
+      "scrollWidth": 375,
+      "smallFields": 0
+    },
+    {
+      "width": 375,
+      "route": "/projects/full-stack-ecommerce",
+      "scrollWidth": 375,
+      "smallFields": 0
+    },
+    {
+      "width": 375,
+      "route": "/projects/taxi-booking",
+      "scrollWidth": 375,
+      "smallFields": 0
+    },
+    {
+      "width": 390,
+      "route": "/",
+      "scrollWidth": 390,
+      "smallFields": 0
+    },
+    {
+      "width": 390,
+      "route": "/contact",
+      "scrollWidth": 390,
+      "smallFields": 0
+    },
+    {
+      "width": 390,
+      "route": "/projects/haldiram-d2c",
+      "scrollWidth": 390,
+      "smallFields": 0
+    },
+    {
+      "width": 390,
+      "route": "/projects/aditya-birla-calculator",
+      "scrollWidth": 390,
+      "smallFields": 0
+    },
+    {
+      "width": 390,
+      "route": "/projects/full-stack-ecommerce",
+      "scrollWidth": 390,
+      "smallFields": 0
+    },
+    {
+      "width": 390,
+      "route": "/projects/taxi-booking",
+      "scrollWidth": 390,
+      "smallFields": 0
+    },
+    {
+      "width": 430,
+      "route": "/",
+      "scrollWidth": 430,
+      "smallFields": 0
+    },
+    {
+      "width": 430,
+      "route": "/contact",
+      "scrollWidth": 430,
+      "smallFields": 0
+    },
+    {
+      "width": 430,
+      "route": "/projects/haldiram-d2c",
+      "scrollWidth": 430,
+      "smallFields": 0
+    },
+    {
+      "width": 430,
+      "route": "/projects/aditya-birla-calculator",
+      "scrollWidth": 430,
+      "smallFields": 0
+    },
+    {
+      "width": 430,
+      "route": "/projects/full-stack-ecommerce",
+      "scrollWidth": 430,
+      "smallFields": 0
+    },
+    {
+      "width": 430,
+      "route": "/projects/taxi-booking",
+      "scrollWidth": 430,
+      "smallFields": 0
+    },
+    {
+      "width": 600,
+      "route": "/",
+      "scrollWidth": 600,
+      "smallFields": 0
+    },
+    {
+      "width": 600,
+      "route": "/contact",
+      "scrollWidth": 600,
+      "smallFields": 0
+    },
+    {
+      "width": 600,
+      "route": "/projects/haldiram-d2c",
+      "scrollWidth": 600,
+      "smallFields": 0
+    },
+    {
+      "width": 600,
+      "route": "/projects/aditya-birla-calculator",
+      "scrollWidth": 600,
+      "smallFields": 0
+    },
+    {
+      "width": 600,
+      "route": "/projects/full-stack-ecommerce",
+      "scrollWidth": 600,
+      "smallFields": 0
+    },
+    {
+      "width": 600,
+      "route": "/projects/taxi-booking",
+      "scrollWidth": 600,
+      "smallFields": 0
+    },
+    {
+      "width": 768,
+      "route": "/",
+      "scrollWidth": 768,
+      "smallFields": 0
+    },
+    {
+      "width": 768,
+      "route": "/contact",
+      "scrollWidth": 768,
+      "smallFields": 0
+    },
+    {
+      "width": 768,
+      "route": "/projects/haldiram-d2c",
+      "scrollWidth": 768,
+      "smallFields": 0
+    },
+    {
+      "width": 768,
+      "route": "/projects/aditya-birla-calculator",
+      "scrollWidth": 768,
+      "smallFields": 0
+    },
+    {
+      "width": 768,
+      "route": "/projects/full-stack-ecommerce",
+      "scrollWidth": 768,
+      "smallFields": 0
+    },
+    {
+      "width": 768,
+      "route": "/projects/taxi-booking",
+      "scrollWidth": 768,
+      "smallFields": 0
+    },
+    {
+      "width": 1440,
+      "route": "/",
+      "scrollWidth": 1440,
+      "smallFields": 0
+    },
+    {
+      "width": 1440,
+      "route": "/contact",
+      "scrollWidth": 1440,
+      "smallFields": 4
+    },
+    {
+      "width": 1440,
+      "route": "/projects/haldiram-d2c",
+      "scrollWidth": 1440,
+      "smallFields": 0
+    },
+    {
+      "width": 1440,
+      "route": "/projects/aditya-birla-calculator",
+      "scrollWidth": 1440,
+      "smallFields": 0
+    },
+    {
+      "width": 1440,
+      "route": "/projects/full-stack-ecommerce",
+      "scrollWidth": 1440,
+      "smallFields": 0
+    },
+    {
+      "width": 1440,
+      "route": "/projects/taxi-booking",
+      "scrollWidth": 1440,
+      "smallFields": 0
+    }
+  ],
+  "errors": [],
+  "interactions": "navigation, theme, technology card, wizard, form focus, lightbox passed"
+}

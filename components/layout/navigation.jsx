@@ -78,7 +78,11 @@ export function Dock() {
       let current = "";
       sections.forEach((id) => {
         const el = document.getElementById(id);
-        if (el && el.getBoundingClientRect().top < innerHeight * 0.38)
+        if (
+          el &&
+          el.getClientRects().length > 0 &&
+          el.getBoundingClientRect().top < innerHeight * 0.38
+        )
           current = id;
       });
       setActive(current);
@@ -118,6 +122,7 @@ export function Dock() {
             className={selected ? "active" : ""}
           >
             <item.icon size={18} strokeWidth={2.6} />
+            <span className="dock-label" aria-hidden="true">{item.label}</span>
             <span className="tooltip">{item.label}</span>
           </Link>
         );
@@ -130,6 +135,7 @@ export function Dock() {
         <span className="theme-icon">
           {dark ? <Sun size={16} /> : <Moon size={16} />}
         </span>
+        <span className="dock-label" aria-hidden="true">{dark ? "Light" : "Dark"}</span>
         <span className="tooltip">{dark ? "Light" : "Dark"} mode</span>
       </button>
     </nav>

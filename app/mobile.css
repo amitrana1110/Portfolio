@@ -1,0 +1,720 @@
+/* Mobile layout: imported after the shared desktop styles. */
+.dock-label {
+  display: none;
+}
+
+@media (max-width: 809.98px) {
+  html {
+    scroll-padding-top: 84px;
+    scroll-padding-bottom: 110px;
+  }
+
+  body {
+    -webkit-text-size-adjust: 100%;
+  }
+
+  .site {
+    width: 100%;
+    max-width: 100%;
+    border: 0;
+  }
+
+  main > .page-transition > section,
+  main > section {
+    padding-inline: clamp(20px, 5vw, 36px);
+  }
+
+  section {
+    padding-block: 36px;
+  }
+
+  .section-heading {
+    margin-bottom: 24px;
+  }
+
+  .section-heading :is(h1, h2) {
+    font-size: clamp(27px, 6.7vw, 34px);
+    line-height: 1.18;
+    text-wrap: balance;
+  }
+
+  .hero {
+    height: auto;
+    min-height: 0;
+    padding-top: max(52px, env(safe-area-inset-top));
+    padding-bottom: 48px;
+  }
+
+  .hero h1,
+  .hero h1 .greeting {
+    font-size: clamp(40px, 11.5vw, 58px);
+    line-height: 1.12;
+  }
+
+  .hero h1 .greeting {
+    justify-content: flex-start;
+    height: 1.3em;
+  }
+
+  .hero .intro {
+    gap: 8px;
+  }
+
+  .hero .wave {
+    width: 1.1em;
+    height: 1.1em;
+  }
+
+  .hero-role {
+    margin-top: 12px;
+    font-size: clamp(22px, 5.5vw, 28px);
+  }
+
+  .hero-summary {
+    margin-top: 22px;
+    max-width: 560px;
+    font-size: 16px;
+    line-height: 1.65;
+  }
+
+  .hero .actions {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 10px;
+    max-width: 390px;
+    margin-top: 28px;
+  }
+
+  .hero .button {
+    min-height: 48px;
+    padding: 12px 10px;
+    font-size: 14px;
+    white-space: nowrap;
+  }
+
+  .hero .primary {
+    border-color: var(--orange);
+  }
+
+  .about-person .portrait {
+    height: clamp(210px, 58vw, 260px);
+    object-position: 50% 30%;
+  }
+
+  .about-person-copy {
+    padding: 24px;
+    background: var(--surface);
+    color: var(--text);
+  }
+
+  .about-person-copy p {
+    color: var(--muted);
+    font-size: 15px;
+    line-height: 1.65;
+  }
+
+  .about-person .mini-label {
+    font-size: 10px;
+  }
+
+  .tech-personal {
+    min-height: 260px;
+  }
+
+  .tech-personal p {
+    font-size: 14px;
+    max-width: 250px;
+  }
+
+  .tech-personal small,
+  .tech-personal .flip-hint {
+    font-size: 11px;
+  }
+
+  .education-folder {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+    grid-template-rows: 180px auto;
+    justify-content: stretch;
+    gap: 12px;
+    min-height: 0;
+    padding: 20px;
+  }
+
+  .education-folder .folder-art {
+    align-self: end;
+    width: 160px;
+    height: 130px;
+    margin: 0 auto;
+  }
+
+  .education-folder .folder-paper {
+    left: 30px;
+    width: 100px;
+    height: 100px;
+    font-size: 17px;
+  }
+
+  /* Keep the full fan, including rotated corners, inside the card. */
+  .education-folder .paper-one,
+  .education-folder:hover .paper-one,
+  .education-folder:focus-visible .paper-one {
+    transform: translate(
+        calc(-54px * var(--folder-open, 0)),
+        calc(-48px * var(--folder-open, 0))
+      )
+      rotate(calc(-5deg - 5deg * var(--folder-open, 0)));
+  }
+
+  .education-folder .paper-two,
+  .education-folder:hover .paper-two,
+  .education-folder:focus-visible .paper-two {
+    transform: translate(
+        calc(54px * var(--folder-open, 0)),
+        calc(-48px * var(--folder-open, 0))
+      )
+      rotate(calc(7deg + 3deg * var(--folder-open, 0)));
+  }
+
+  /* Repeated details remain available in the resume and dedicated pages. */
+  .about-grid .tech-personal,
+  #highlights,
+  #contact,
+  #how-it-work > .section-heading,
+  #how-it-work .connect-person,
+  #how-it-work .connect-rule,
+  #how-it-work .connect-details > .mini-label,
+  #how-it-work .connect-details > h4,
+  #how-it-work .connect-list,
+  .stack-card .tech-marquees,
+  .skill-groups > :nth-child(n + 3),
+  .timeline-achievements li:nth-child(n + 4) {
+    display: none;
+  }
+
+  #work .projects-grid {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 12px;
+  }
+
+  #work .project-card {
+    position: relative;
+    display: grid;
+    grid-template-columns: 88px minmax(0, 1fr);
+    align-items: center;
+    gap: 16px;
+    padding: 14px;
+    border-radius: 20px;
+    grid-column: auto;
+  }
+
+  #work .project-card .project-visual {
+    width: 88px;
+    height: 100px;
+    min-height: 0;
+    aspect-ratio: auto;
+    border-radius: 12px;
+  }
+
+  #work .project-card .project-copy {
+    width: auto;
+    min-width: 0;
+    padding: 0;
+  }
+
+  #work .project-copy h3 {
+    font-size: 19px;
+    line-height: 1.25;
+  }
+
+  #work .project-copy > p,
+  #work .cover-label,
+  #work .project-chips > :nth-child(n + 2),
+  #work .project-mark,
+  #work .project-author > span:nth-child(2) {
+    display: none;
+  }
+
+  #work .project-chips {
+    margin: 10px 26px 0 0;
+  }
+
+  #work .project-chips span {
+    padding: 0;
+    background: none;
+    font-size: 11px;
+  }
+
+  #work .project-author {
+    position: absolute;
+    right: 14px;
+    bottom: 14px;
+    border: 0;
+    padding: 0;
+    min-height: 0;
+  }
+
+  #work .project-arrow {
+    width: 24px;
+    height: 24px;
+  }
+
+  #how-it-work .connect-grid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  #how-it-work .connect-details {
+    padding: 24px;
+    background: var(--surface);
+  }
+
+  #how-it-work .connect-details > .button {
+    margin-top: 20px;
+  }
+
+  #education .education-grid {
+    gap: 12px;
+  }
+
+  #education .education-card {
+    padding: 20px;
+  }
+
+  #education .education-icon {
+    display: none;
+  }
+
+  #education .education-card h3 {
+    font-size: 21px;
+    margin-bottom: 8px;
+  }
+
+  #education .education-grade {
+    margin-top: 12px;
+    padding-top: 12px;
+  }
+
+  #education .education-grade strong {
+    font-size: 26px;
+  }
+
+  .project-copy,
+  .education-card {
+    padding: 24px;
+  }
+
+  .project-copy > p,
+  .expertise-details > p,
+  .highlight-slide > p,
+  .case-section p,
+  .case-section li {
+    font-size: 15px;
+    line-height: 1.65;
+  }
+
+  .project-copy h3 {
+    font-size: 25px;
+    line-height: 1.2;
+  }
+
+  .project-chips span,
+  .tags span {
+    font-size: 12px;
+    line-height: 1.5;
+    padding: 4px 9px;
+  }
+
+  .project-author {
+    gap: 10px;
+  }
+
+  .project-author > span:nth-child(2) {
+    min-width: 0;
+  }
+
+  .project-author strong {
+    font-size: 14px;
+  }
+
+  .project-author small {
+    font-size: 12px;
+  }
+
+  .project-mark,
+  .project-arrow {
+    flex-shrink: 0;
+  }
+
+  .stack-card {
+    margin-inline: 0;
+    margin-bottom: 32px;
+  }
+
+  .skill-group h3 {
+    font-size: 13px;
+  }
+
+  .timeline article {
+    grid-template-columns: 30px minmax(0, 1fr);
+    gap: 14px;
+    padding-block: 36px;
+  }
+
+  .timeline-title {
+    align-items: flex-start;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+
+  .timeline-title h3 {
+    font-size: 23px;
+  }
+
+  .timeline-title p,
+  .timeline-date,
+  .timeline-location {
+    font-size: 13px;
+  }
+
+  .timeline-achievements li {
+    font-size: 15px;
+    line-height: 1.65;
+  }
+
+  .timeline-achievements h4 {
+    font-size: 15px;
+  }
+
+  .education-section {
+    padding-top: 32px;
+    scroll-margin-top: 12px;
+  }
+
+  .accordion h3 button {
+    min-height: 76px;
+    font-size: 21px;
+    line-height: 1.3;
+  }
+
+  .expertise-tools {
+    font-size: 12px;
+  }
+
+  .expertise-link {
+    font-size: 14px;
+    min-height: 48px;
+  }
+
+  .highlight-art {
+    min-height: 180px;
+    padding: 24px;
+  }
+
+  .highlight-art > span {
+    font-size: 70px;
+  }
+
+  .highlight-art small {
+    margin-bottom: 12px;
+  }
+
+  .highlight-art > svg {
+    width: 28px;
+    height: 28px;
+  }
+
+  .connect-person {
+    padding-top: 0;
+    min-height: 0;
+    overflow: hidden;
+  }
+
+  .resume-card {
+    position: relative;
+    inset: auto;
+    margin: 16px;
+    padding: 24px 16px;
+    transform: none;
+  }
+
+  .resume-stats small {
+    font-size: 11px;
+    max-width: none;
+  }
+
+  .connect-details h4 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 4px 8px;
+    font-size: 42px;
+  }
+
+  .connect-details h4 > span {
+    margin: 0;
+    font-size: 20px;
+  }
+
+  .connect-details > .mini-label {
+    display: inline-block;
+    font-size: 10px;
+  }
+
+  .connect-list span {
+    font-size: 13px;
+  }
+
+  .connect-details > .button {
+    width: 100%;
+    min-height: 48px;
+  }
+
+  .booking-section {
+    padding-top: 0;
+  }
+
+  .booking-grid,
+  .contact-grid {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 28px;
+  }
+
+  .booking-profile {
+    display: grid;
+    grid-template-columns: 88px minmax(0, 1fr);
+    align-items: center;
+    column-gap: 18px;
+  }
+
+  .booking-portrait {
+    grid-row: span 2;
+    height: 112px;
+    border-radius: 16px;
+  }
+
+  .booking-profile .booking-role {
+    display: none;
+  }
+
+  .booking-profile > p {
+    text-align: left;
+    font-size: 14px;
+    margin: 0;
+    align-self: end;
+  }
+
+  .booking-profile > p strong {
+    display: block;
+    font-size: 17px;
+    margin-bottom: 4px;
+  }
+
+  .booking-profile > p > span {
+    display: none;
+  }
+
+  .booking-profile .socials {
+    justify-content: flex-start;
+    margin-left: -12px;
+    align-self: start;
+  }
+
+  .contact-wizard,
+  .wizard-body,
+  .wizard-fields {
+    min-height: 0;
+  }
+
+  .wizard-header {
+    height: auto;
+    min-height: 122px;
+    padding: 26px 22px 52px;
+    gap: 12px;
+  }
+
+  .wizard-header h3 {
+    font-size: 25px;
+    line-height: 1.2;
+  }
+
+  .step-dots {
+    flex-shrink: 0;
+    padding-top: 8px;
+  }
+
+  .wizard-body {
+    padding: 26px 20px;
+  }
+
+  .wizard-choice {
+    padding: 16px 14px;
+  }
+
+  .wizard-choice strong {
+    font-size: 15px;
+  }
+
+  .wizard-choice small,
+  .wizard-disclaimer {
+    font-size: 13px;
+    line-height: 1.6;
+  }
+
+  .wizard-choice input {
+    width: 18px;
+    height: 18px;
+    min-height: 18px;
+    margin-top: 2px;
+  }
+
+  input,
+  textarea,
+  select {
+    font-size: 16px;
+    min-height: 48px;
+    scroll-margin-block: 96px;
+  }
+
+  .field label {
+    font-size: 14px;
+  }
+
+  .contact-section {
+    padding-top: 94px;
+  }
+
+  .contact-grid {
+    margin-top: 30px;
+  }
+
+  .contact-portrait {
+    height: 300px;
+    max-width: 360px;
+    margin-inline: auto;
+  }
+
+  .case-study {
+    padding: 88px clamp(20px, 5vw, 36px) 40px;
+  }
+
+  .case-study > h1 {
+    font-size: clamp(30px, 7.7vw, 42px);
+    text-wrap: balance;
+  }
+
+  .case-section {
+    padding-block: 24px;
+  }
+
+  .case-section h2 {
+    font-size: 19px;
+  }
+
+  .project-meta {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .project-meta dd {
+    overflow-wrap: anywhere;
+  }
+
+  .image-dialog {
+    max-height: 85dvh;
+  }
+
+  .image-dialog img {
+    max-height: calc(85dvh - 24px);
+  }
+
+  .dock {
+    width: min(380px, calc(100% - 32px));
+    max-width: none;
+    display: grid;
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+    gap: 3px;
+    padding: 6px;
+    bottom: calc(12px + env(safe-area-inset-bottom));
+    border-radius: 22px;
+    box-shadow: 0 8px 32px #00000014;
+  }
+
+  .dock a,
+  .dock button {
+    width: 100%;
+    min-width: 0;
+    height: 54px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+    border-radius: 15px;
+  }
+
+  .dock-label {
+    display: block;
+    font-size: 10px;
+    line-height: 1;
+    font-weight: 500;
+  }
+
+  .dock .tooltip,
+  .dock-divider {
+    display: none;
+  }
+
+  .dock .theme-icon {
+    width: 20px;
+    height: 20px;
+    border: 0;
+  }
+
+  body:has(main :is(input:not([type="radio"]):not([type="checkbox"]), textarea, select):focus) .dock {
+    opacity: 0;
+    pointer-events: none;
+    visibility: hidden;
+  }
+
+  .footer-bottom {
+    padding: 16px 20px calc(106px + env(safe-area-inset-bottom));
+    font-size: 12px;
+  }
+
+  .footer-message {
+    padding: 64px 20px 32px;
+  }
+
+  .footer-message > p {
+    font-size: 13px;
+    line-height: 1.5;
+  }
+
+  .footer-signature {
+    margin-top: 18px;
+  }
+}
+
+@media (max-width: 374px) {
+  .hero .button {
+    font-size: 13px;
+    gap: 6px;
+  }
+
+  .project-copy,
+  .education-card,
+  .about-person-copy {
+    padding: 20px;
+  }
+
+  .project-copy h3 {
+    font-size: 23px;
+  }
+
+  .project-author .project-mark {
+    width: 34px;
+    height: 34px;
+  }
+
+  .wizard-header h3 {
+    font-size: 22px;
+  }
+}

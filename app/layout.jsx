@@ -1,5 +1,6 @@
 import localFont from "next/font/local";
 import "./globals.css";
+import "./mobile.css";
 import { Dock, Profile } from "@/components/layout/navigation";
 import { Footer } from "@/components/layout/footer";
 import { MotionRoot } from "@/components/motion/motion-root";
@@ -27,6 +28,12 @@ const satoshi = localFont({
   variable: "--font-satoshi",
   display: "swap",
 });
+export const viewport = {
+  width: "device-width",
+  initialScale: 1,
+  viewportFit: "cover",
+  interactiveWidget: "resizes-content",
+};
 export const metadata = {
   metadataBase: new URL(
     origin || "http://localhost:3000",

@@ -48,3 +48,25 @@ The raw log contains 187 recorded route, control-state, and layout observations:
 Desktop hover expansion: [qa-desktop-education.jpg](../output/qa-desktop-education.jpg).
 
 Mobile centre-screen expansion: [qa-mobile-education.jpg](../output/qa-mobile-education.jpg).
+
+## Mobile layout update — October 2, 2026
+
+Mobile styles are now grouped in `app/mobile.css`, loaded after shared styles. The phone layout has fluid hero sizing, larger body text and form fields, labeled bottom navigation, compact contact identity, and content-sized resume/wizard cards. Safe-area viewport support and extra footer clearance accommodate the bottom dock; it hides while text fields are focused.
+
+Chromium emulation checks passed for all six routes at 320, 375, 390, 430, 600, 768, and 1440px (42 route/width combinations), with no horizontal overflow or observed JavaScript errors. Interactions checked: navigation anchors, dark/light themes, technology switching, three-step email draft, field focus and dock visibility, and project lightbox. No email was sent. These checks use browser emulation rather than physical devices.
+
+Results: `output/mobile-layout-check.json`. Screenshots: `output/mobile-home-updated.png`, `output/mobile-contact-updated.png`, `output/mobile-work-dark-updated.png`, and `output/mobile-wizard-updated.png`.
+
+The production build also passed. With normal animations enabled, production CSS ordering and section reveals passed at 320, 390, 768, and 1440px. Desktop navigation labels remain hidden and the desktop layout remains governed by shared styles. Production viewport screenshots are saved as `output/mobile-production-{width}.png`.
+
+## Shorter mobile homepage and education fix — October 2, 2026
+
+The education folder now reserves a fixed illustration area and keeps both papers, including their rotated corners, inside the card through the full mobile scroll animation. The papers are centered and separated enough to read both degree names and dates.
+
+Below 810px, the homepage uses compact rows for all four projects; shows the two primary skill groups and first three experience achievements; and uses smaller education cards and a direct contact-page CTA. The repeated technology card, highlights carousel, expanded hiring details, and homepage contact wizard are hidden on mobile. Full details remain in the resume and project pages. Navigation ignores hidden sections when selecting the active dock item. Desktop styling is unchanged.
+
+At 390px, homepage height decreased from 11,584px to 5,695px (51%). At 320px it decreased from 12,131px to 6,065px (50%). The folder bounds, no horizontal overflow, education anchor, and Work/Connect dock states passed at 320, 375, 390, 430, 600, and 768px. Desktop section geometry matched at 1024 and 1440px; the 1440px viewport screenshot was byte-for-byte identical before and after.
+
+The production build passed. Measurements are in `output/mobile-compact-check.json`; previews are `output/mobile-education-contained-dark.png` and `output/mobile-compact-projects.png`. Checks use Chromium emulation, not physical devices.
+
+With animations enabled in the production build, folder papers remained contained at three scroll positions at 320, 390, and 768px. Project navigation and the direct contact CTA/form also passed at those widths. No email was sent.
