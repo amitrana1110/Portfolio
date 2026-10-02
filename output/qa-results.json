@@ -1,0 +1,1090 @@
+[
+  {
+    "device": "desktop",
+    "test": "dock About",
+    "url": "http://localhost:3001/#about-me"
+  },
+  {
+    "device": "desktop",
+    "test": "dock Work",
+    "url": "http://localhost:3001/#work"
+  },
+  {
+    "device": "desktop",
+    "test": "dock Expertise",
+    "url": "http://localhost:3001/#service"
+  },
+  {
+    "device": "desktop",
+    "test": "dock Connect",
+    "url": "http://localhost:3001/#how-it-work"
+  },
+  {
+    "test": "dark theme",
+    "theme": "dark"
+  },
+  {
+    "test": "theme persisted",
+    "theme": "dark"
+  },
+  {
+    "test": "technology flip",
+    "pressed": "true"
+  },
+  {
+    "test": "surprise reveal",
+    "downloadVisible": true
+  },
+  {
+    "test": "education link",
+    "url": "http://localhost:3001/#education"
+  },
+  {
+    "test": "highlight next 0",
+    "text": "// Work highlights\n\nSmall details. Measurable impact. \n30%\nLess API integration time\nA more reusable approach to GraphQL.\n\nReusable wrapper functions reduced API integration time by 30%, while supporting robust error handling and dynamic content rendering.\n\nAyasya Digital Solutions\nFrontend Developer · Haldiram D2C\n02 / 03"
+  },
+  {
+    "test": "highlight next 1",
+    "text": "// Work highlights\n\nSmall details. Measurable impact. \n20+\nUI issues resolved\nConsistent experiences, across screens.\n\nResolved UI issues and improved responsive layouts across desktop, tablet, and mobile devices on the Haldiram D2C platform.\n\nAyasya Digital Solutions\nFrontend Developer · Haldiram D2C\n03 / 03"
+  },
+  {
+    "test": "highlight next 2",
+    "text": "// Work highlights\n\nSmall details. Measurable impact. \n15+\nReusable components\nBuilt once. Used across the application.\n\nDeveloped modular React components with TypeScript to improve maintainability, consistency, and development efficiency at Ayasya Digital Solutions.\n\nAyasya Digital Solutions\nFrontend Developer · Haldiram D2C\n01 / 03"
+  },
+  {
+    "device": "desktop",
+    "test": "expertise 1. React & Next.js Development Explore related work",
+    "url": "http://localhost:3001/projects/haldiram-d2c",
+    "expected": "/projects/haldiram-d2c"
+  },
+  {
+    "device": "desktop",
+    "test": "expertise 1. React & Next.js Development Explore related work",
+    "url": "http://localhost:3001/projects/haldiram-d2c",
+    "expected": "/projects/haldiram-d2c"
+  },
+  {
+    "device": "desktop",
+    "test": "expertise 1. React & Next.js Development View Haldiram D2C",
+    "url": "http://localhost:3001/projects/haldiram-d2c",
+    "expected": "/projects/haldiram-d2c"
+  },
+  {
+    "device": "desktop",
+    "test": "accordion expand 1. React & Next.js Development",
+    "state": "true"
+  },
+  {
+    "device": "desktop",
+    "test": "accordion collapse 1. React & Next.js Development",
+    "state": "false"
+  },
+  {
+    "device": "desktop",
+    "test": "accordion expand 2. API Integration & Dynamic Content",
+    "state": "true"
+  },
+  {
+    "device": "desktop",
+    "test": "accordion collapse 2. API Integration & Dynamic Content",
+    "state": "false"
+  },
+  {
+    "device": "desktop",
+    "test": "accordion expand 3. Responsive Interface Development",
+    "state": "true"
+  },
+  {
+    "device": "desktop",
+    "test": "accordion collapse 3. Responsive Interface Development",
+    "state": "false"
+  },
+  {
+    "device": "desktop",
+    "test": "accordion expand 4. State & Component Architecture",
+    "state": "true"
+  },
+  {
+    "device": "desktop",
+    "test": "accordion collapse 4. State & Component Architecture",
+    "state": "false"
+  },
+  {
+    "device": "desktop",
+    "test": "accordion expand 5. Backend & Form Integration",
+    "state": "true"
+  },
+  {
+    "device": "desktop",
+    "test": "accordion collapse 5. Backend & Form Integration",
+    "state": "false"
+  },
+  {
+    "device": "desktop",
+    "test": "wizard preserves details",
+    "name": "QA Tester"
+  },
+  {
+    "device": "desktop",
+    "test": "Email Amit",
+    "href": "mailto:rana.amit.1110@gmail.com"
+  },
+  {
+    "device": "desktop",
+    "test": "resume download clicked",
+    "href": "/Amit_Resume.pdf"
+  },
+  {
+    "device": "desktop",
+    "test": "resume download clicked",
+    "href": "/Amit_Resume.pdf"
+  },
+  {
+    "device": "desktop",
+    "test": "resume download clicked",
+    "href": "/Amit_Resume.pdf"
+  },
+  {
+    "device": "desktop",
+    "test": "resume download clicked",
+    "href": "/Amit_Resume.pdf"
+  },
+  {
+    "device": "desktop",
+    "test": "contact delivery disabled as configured",
+    "enabled": false
+  },
+  {
+    "device": "desktop",
+    "test": "lightbox open",
+    "open": ""
+  },
+  {
+    "device": "desktop",
+    "test": "lightbox escape",
+    "open": null
+  },
+  {
+    "device": "desktop",
+    "test": "case jump Overview",
+    "url": "http://localhost:3001/projects/haldiram-d2c#point-0",
+    "closed": "false"
+  },
+  {
+    "device": "desktop",
+    "test": "case jump My contribution",
+    "url": "http://localhost:3001/projects/haldiram-d2c#point-1",
+    "closed": "false"
+  },
+  {
+    "device": "desktop",
+    "test": "case jump Approach",
+    "url": "http://localhost:3001/projects/haldiram-d2c#point-2",
+    "closed": "false"
+  },
+  {
+    "device": "desktop",
+    "test": "case jump Outcomes",
+    "url": "http://localhost:3001/projects/haldiram-d2c#point-3",
+    "closed": "false"
+  },
+  {
+    "device": "desktop",
+    "test": "calculator point Overview",
+    "url": "http://localhost:3001/projects/aditya-birla-calculator#point-0"
+  },
+  {
+    "device": "desktop",
+    "test": "calculator point My contribution",
+    "url": "http://localhost:3001/projects/aditya-birla-calculator#point-1"
+  },
+  {
+    "device": "desktop",
+    "test": "calculator point Technologies",
+    "url": "http://localhost:3001/projects/aditya-birla-calculator#point-2"
+  },
+  {
+    "device": "desktop",
+    "test": "calculator point Approach",
+    "url": "http://localhost:3001/projects/aditya-birla-calculator#point-3"
+  },
+  {
+    "device": "desktop",
+    "test": "http://localhost:3001/projects/full-stack-ecommerce section Overview",
+    "url": "http://localhost:3001/projects/full-stack-ecommerce#point-0"
+  },
+  {
+    "device": "desktop",
+    "test": "http://localhost:3001/projects/full-stack-ecommerce section My contribution",
+    "url": "http://localhost:3001/projects/full-stack-ecommerce#point-1"
+  },
+  {
+    "device": "desktop",
+    "test": "http://localhost:3001/projects/full-stack-ecommerce section Approach",
+    "url": "http://localhost:3001/projects/full-stack-ecommerce#point-2"
+  },
+  {
+    "device": "desktop",
+    "test": "http://localhost:3001/projects/full-stack-ecommerce section Implemented features",
+    "url": "http://localhost:3001/projects/full-stack-ecommerce#point-3"
+  },
+  {
+    "device": "desktop",
+    "test": "http://localhost:3001/projects/full-stack-ecommerce layout",
+    "overflow": false
+  },
+  {
+    "device": "desktop",
+    "test": "http://localhost:3001/projects/taxi-booking section Overview",
+    "url": "http://localhost:3001/projects/taxi-booking#point-0"
+  },
+  {
+    "device": "desktop",
+    "test": "http://localhost:3001/projects/taxi-booking section My contribution",
+    "url": "http://localhost:3001/projects/taxi-booking#point-1"
+  },
+  {
+    "device": "desktop",
+    "test": "http://localhost:3001/projects/taxi-booking section Approach",
+    "url": "http://localhost:3001/projects/taxi-booking#point-2"
+  },
+  {
+    "device": "desktop",
+    "test": "http://localhost:3001/projects/taxi-booking section Implemented features",
+    "url": "http://localhost:3001/projects/taxi-booking#point-3"
+  },
+  {
+    "device": "desktop",
+    "test": "http://localhost:3001/projects/taxi-booking layout",
+    "overflow": false
+  },
+  {
+    "device": "mobile",
+    "test": "dock About",
+    "url": "http://localhost:3001/#about-me"
+  },
+  {
+    "device": "mobile",
+    "test": "dock Work",
+    "url": "http://localhost:3001/#work"
+  },
+  {
+    "device": "mobile",
+    "test": "dock Expertise",
+    "url": "http://localhost:3001/#service"
+  },
+  {
+    "device": "mobile",
+    "test": "dock Connect",
+    "url": "http://localhost:3001/#how-it-work"
+  },
+  {
+    "device": "mobile",
+    "test": "dark theme",
+    "theme": "dark"
+  },
+  {
+    "device": "mobile",
+    "test": "technology flip",
+    "pressed": "true"
+  },
+  {
+    "device": "mobile",
+    "test": "expand 1. React & Next.js Development",
+    "state": "true"
+  },
+  {
+    "device": "mobile",
+    "test": "expand 2. API Integration & Dynamic Content",
+    "state": "true"
+  },
+  {
+    "device": "mobile",
+    "test": "expand 3. Responsive Interface Development",
+    "state": "true"
+  },
+  {
+    "device": "mobile",
+    "test": "expand 4. State & Component Architecture",
+    "state": "true"
+  },
+  {
+    "device": "mobile",
+    "test": "expand 5. Backend & Form Integration",
+    "state": "true"
+  },
+  {
+    "device": "mobile",
+    "test": "education anchor",
+    "url": "http://localhost:3001/#education"
+  },
+  {
+    "device": "mobile",
+    "test": "wizard rejects blank details",
+    "error": [
+      "Please enter your name and a valid email address.",
+      ""
+    ]
+  },
+  {
+    "device": "mobile",
+    "test": "wizard draft",
+    "href": "mailto:rana.amit.1110@gmail.com?subject=Career%20opportunity&body=Hi%20Amit%2C%0A%0AMobile%20QA%20only%2C%20no%20message%20sent.%0A%0AMobile%20QA%0Aqa%40example.com"
+  },
+  {
+    "device": "mobile",
+    "test": "contact delivery guard",
+    "enabled": false
+  },
+  {
+    "device": "mobile",
+    "test": "repeat contact landing",
+    "top": 0
+  },
+  {
+    "device": "mobile",
+    "test": "http://localhost:3001/projects/haldiram-d2c section Overview",
+    "url": "http://localhost:3001/projects/haldiram-d2c#point-0"
+  },
+  {
+    "device": "mobile",
+    "test": "http://localhost:3001/projects/haldiram-d2c section My contribution",
+    "url": "http://localhost:3001/projects/haldiram-d2c#point-1"
+  },
+  {
+    "device": "mobile",
+    "test": "http://localhost:3001/projects/haldiram-d2c section Approach",
+    "url": "http://localhost:3001/projects/haldiram-d2c#point-2"
+  },
+  {
+    "device": "mobile",
+    "test": "http://localhost:3001/projects/haldiram-d2c section Outcomes",
+    "url": "http://localhost:3001/projects/haldiram-d2c#point-3"
+  },
+  {
+    "device": "mobile",
+    "test": "http://localhost:3001/projects/haldiram-d2c layout",
+    "overflow": false
+  },
+  {
+    "device": "mobile",
+    "test": "http://localhost:3001/projects/aditya-birla-calculator section Overview",
+    "url": "http://localhost:3001/projects/aditya-birla-calculator#point-0"
+  },
+  {
+    "device": "mobile",
+    "test": "http://localhost:3001/projects/aditya-birla-calculator section My contribution",
+    "url": "http://localhost:3001/projects/aditya-birla-calculator#point-1"
+  },
+  {
+    "device": "mobile",
+    "test": "http://localhost:3001/projects/aditya-birla-calculator section Technologies",
+    "url": "http://localhost:3001/projects/aditya-birla-calculator#point-2"
+  },
+  {
+    "device": "mobile",
+    "test": "http://localhost:3001/projects/aditya-birla-calculator section Approach",
+    "url": "http://localhost:3001/projects/aditya-birla-calculator#point-3"
+  },
+  {
+    "device": "mobile",
+    "test": "http://localhost:3001/projects/aditya-birla-calculator layout",
+    "overflow": false
+  },
+  {
+    "device": "mobile",
+    "test": "http://localhost:3001/projects/full-stack-ecommerce section Overview",
+    "url": "http://localhost:3001/projects/full-stack-ecommerce#point-0"
+  },
+  {
+    "device": "mobile",
+    "test": "http://localhost:3001/projects/full-stack-ecommerce section My contribution",
+    "url": "http://localhost:3001/projects/full-stack-ecommerce#point-1"
+  },
+  {
+    "device": "mobile",
+    "test": "http://localhost:3001/projects/full-stack-ecommerce section Approach",
+    "url": "http://localhost:3001/projects/full-stack-ecommerce#point-2"
+  },
+  {
+    "device": "mobile",
+    "test": "http://localhost:3001/projects/full-stack-ecommerce section Implemented features",
+    "url": "http://localhost:3001/projects/full-stack-ecommerce#point-3"
+  },
+  {
+    "device": "mobile",
+    "test": "http://localhost:3001/projects/full-stack-ecommerce layout",
+    "overflow": false
+  },
+  {
+    "device": "mobile",
+    "test": "http://localhost:3001/projects/taxi-booking section Overview",
+    "url": "http://localhost:3001/projects/taxi-booking#point-0"
+  },
+  {
+    "device": "mobile",
+    "test": "http://localhost:3001/projects/taxi-booking section My contribution",
+    "url": "http://localhost:3001/projects/taxi-booking#point-1"
+  },
+  {
+    "device": "mobile",
+    "test": "http://localhost:3001/projects/taxi-booking section Approach",
+    "url": "http://localhost:3001/projects/taxi-booking#point-2"
+  },
+  {
+    "device": "mobile",
+    "test": "http://localhost:3001/projects/taxi-booking section Implemented features",
+    "url": "http://localhost:3001/projects/taxi-booking#point-3"
+  },
+  {
+    "device": "mobile",
+    "test": "http://localhost:3001/projects/taxi-booking layout",
+    "overflow": false
+  },
+  {
+    "device": "mobile",
+    "test": "expertise 1. React & Next.js Development link 0",
+    "expected": "/projects/haldiram-d2c",
+    "url": "http://localhost:3001/projects/haldiram-d2c"
+  },
+  {
+    "device": "mobile",
+    "test": "expertise 2. API Integration & Dynamic Content link 0",
+    "expected": "/projects/aditya-birla-calculator",
+    "url": "http://localhost:3001/projects/aditya-birla-calculator"
+  },
+  {
+    "device": "mobile",
+    "test": "expertise 3. Responsive Interface Development link 0",
+    "expected": "/projects/taxi-booking",
+    "url": "http://localhost:3001/projects/taxi-booking"
+  },
+  {
+    "device": "mobile",
+    "test": "expertise 4. State & Component Architecture link 0",
+    "expected": "/projects/full-stack-ecommerce",
+    "url": "http://localhost:3001/projects/full-stack-ecommerce"
+  },
+  {
+    "device": "mobile",
+    "test": "expertise 5. Backend & Form Integration link 0",
+    "expected": "/projects/taxi-booking",
+    "url": "http://localhost:3001/projects/taxi-booking"
+  },
+  {
+    "device": "desktop",
+    "test": "expertise 2. API Integration & Dynamic Content link 0",
+    "expected": "/projects/aditya-birla-calculator",
+    "url": "http://localhost:3001/projects/aditya-birla-calculator"
+  },
+  {
+    "device": "desktop",
+    "test": "expertise 2. API Integration & Dynamic Content link 1",
+    "expected": "/projects/aditya-birla-calculator",
+    "url": "http://localhost:3001/projects/aditya-birla-calculator"
+  },
+  {
+    "device": "desktop",
+    "test": "expertise 3. Responsive Interface Development link 0",
+    "expected": "/projects/taxi-booking",
+    "url": "http://localhost:3001/projects/taxi-booking"
+  },
+  {
+    "device": "desktop",
+    "test": "expertise 3. Responsive Interface Development link 1",
+    "expected": "/projects/taxi-booking",
+    "url": "http://localhost:3001/projects/taxi-booking"
+  },
+  {
+    "device": "desktop",
+    "test": "expertise 4. State & Component Architecture link 0",
+    "expected": "/projects/full-stack-ecommerce",
+    "url": "http://localhost:3001/projects/full-stack-ecommerce"
+  },
+  {
+    "device": "desktop",
+    "test": "expertise 4. State & Component Architecture link 1",
+    "expected": "/projects/full-stack-ecommerce",
+    "url": "http://localhost:3001/projects/full-stack-ecommerce"
+  },
+  {
+    "device": "desktop",
+    "test": "expertise 5. Backend & Form Integration link 0",
+    "expected": "/projects/taxi-booking",
+    "url": "http://localhost:3001/projects/taxi-booking"
+  },
+  {
+    "device": "desktop",
+    "test": "expertise 5. Backend & Form Integration link 1",
+    "expected": "/projects/taxi-booking",
+    "url": "http://localhost:3001/projects/taxi-booking"
+  },
+  {
+    "device": "desktop",
+    "test": "related card from /projects/haldiram-d2c",
+    "expected": "/projects/aditya-birla-calculator",
+    "url": "http://localhost:3001/projects/aditya-birla-calculator"
+  },
+  {
+    "device": "desktop",
+    "test": "related card from /projects/haldiram-d2c",
+    "expected": "/projects/full-stack-ecommerce",
+    "url": "http://localhost:3001/projects/full-stack-ecommerce"
+  },
+  {
+    "device": "desktop",
+    "test": "related card from /projects/aditya-birla-calculator",
+    "expected": "/projects/haldiram-d2c",
+    "url": "http://localhost:3001/projects/haldiram-d2c"
+  },
+  {
+    "device": "desktop",
+    "test": "related card from /projects/aditya-birla-calculator",
+    "expected": "/projects/full-stack-ecommerce",
+    "url": "http://localhost:3001/projects/full-stack-ecommerce"
+  },
+  {
+    "device": "desktop",
+    "test": "related card from /projects/full-stack-ecommerce",
+    "expected": "/projects/haldiram-d2c",
+    "url": "http://localhost:3001/projects/haldiram-d2c"
+  },
+  {
+    "device": "desktop",
+    "test": "related card from /projects/full-stack-ecommerce",
+    "expected": "/projects/aditya-birla-calculator",
+    "url": "http://localhost:3001/projects/aditya-birla-calculator"
+  },
+  {
+    "device": "desktop",
+    "test": "related card from /projects/taxi-booking",
+    "expected": "/projects/haldiram-d2c",
+    "url": "http://localhost:3001/projects/haldiram-d2c"
+  },
+  {
+    "device": "desktop",
+    "test": "related card from /projects/taxi-booking",
+    "expected": "/projects/aditya-birla-calculator",
+    "url": "http://localhost:3001/projects/aditya-birla-calculator"
+  },
+  {
+    "device": "mobile",
+    "test": "related card from /projects/haldiram-d2c",
+    "expected": "/projects/aditya-birla-calculator",
+    "url": "http://localhost:3001/projects/aditya-birla-calculator"
+  },
+  {
+    "device": "mobile",
+    "test": "related card from /projects/haldiram-d2c",
+    "expected": "/projects/full-stack-ecommerce",
+    "url": "http://localhost:3001/projects/full-stack-ecommerce"
+  },
+  {
+    "device": "mobile",
+    "test": "related card from /projects/aditya-birla-calculator",
+    "expected": "/projects/haldiram-d2c",
+    "url": "http://localhost:3001/projects/haldiram-d2c"
+  },
+  {
+    "device": "mobile",
+    "test": "related card from /projects/aditya-birla-calculator",
+    "expected": "/projects/full-stack-ecommerce",
+    "url": "http://localhost:3001/projects/full-stack-ecommerce"
+  },
+  {
+    "device": "mobile",
+    "test": "related card from /projects/full-stack-ecommerce",
+    "expected": "/projects/haldiram-d2c",
+    "url": "http://localhost:3001/projects/haldiram-d2c"
+  },
+  {
+    "device": "mobile",
+    "test": "related card from /projects/full-stack-ecommerce",
+    "expected": "/projects/aditya-birla-calculator",
+    "url": "http://localhost:3001/projects/aditya-birla-calculator"
+  },
+  {
+    "device": "mobile",
+    "test": "related card from /projects/taxi-booking",
+    "expected": "/projects/haldiram-d2c",
+    "url": "http://localhost:3001/projects/haldiram-d2c"
+  },
+  {
+    "device": "mobile",
+    "test": "related card from /projects/taxi-booking",
+    "expected": "/projects/aditya-birla-calculator",
+    "url": "http://localhost:3001/projects/aditya-birla-calculator"
+  },
+  {
+    "device": "mobile",
+    "test": "featured card /projects/haldiram-d2c",
+    "expected": "/projects/haldiram-d2c",
+    "url": "http://localhost:3001/projects/haldiram-d2c"
+  },
+  {
+    "device": "mobile",
+    "test": "featured card /projects/aditya-birla-calculator",
+    "expected": "/projects/aditya-birla-calculator",
+    "url": "http://localhost:3001/projects/aditya-birla-calculator"
+  },
+  {
+    "device": "mobile",
+    "test": "featured card /projects/full-stack-ecommerce",
+    "expected": "/projects/full-stack-ecommerce",
+    "url": "http://localhost:3001/projects/full-stack-ecommerce"
+  },
+  {
+    "device": "mobile",
+    "test": "featured card /projects/taxi-booking",
+    "expected": "/projects/taxi-booking",
+    "url": "http://localhost:3001/projects/taxi-booking"
+  },
+  {
+    "device": "mobile",
+    "test": "contact featured card",
+    "expected": "/projects/haldiram-d2c",
+    "url": "http://localhost:3001/projects/haldiram-d2c"
+  },
+  {
+    "device": "mobile",
+    "test": "contact featured card",
+    "expected": "/projects/aditya-birla-calculator",
+    "url": "http://localhost:3001/projects/aditya-birla-calculator"
+  },
+  {
+    "device": "mobile",
+    "test": "expertise 1. React & Next.js Development link 0",
+    "expected": "/projects/haldiram-d2c",
+    "url": "http://localhost:3001/projects/haldiram-d2c"
+  },
+  {
+    "device": "mobile",
+    "test": "expertise 2. API Integration & Dynamic Content link 0",
+    "expected": "/projects/aditya-birla-calculator",
+    "url": "http://localhost:3001/projects/aditya-birla-calculator"
+  },
+  {
+    "device": "mobile",
+    "test": "expertise 3. Responsive Interface Development link 0",
+    "expected": "/projects/taxi-booking",
+    "url": "http://localhost:3001/projects/taxi-booking"
+  },
+  {
+    "device": "mobile",
+    "test": "expertise 4. State & Component Architecture link 0",
+    "expected": "/projects/full-stack-ecommerce",
+    "url": "http://localhost:3001/projects/full-stack-ecommerce"
+  },
+  {
+    "device": "mobile",
+    "test": "expertise 5. Backend & Form Integration link 0",
+    "expected": "/projects/taxi-booking",
+    "url": "http://localhost:3001/projects/taxi-booking"
+  },
+  {
+    "device": "desktop",
+    "test": "contact featured card",
+    "expected": "/projects/haldiram-d2c",
+    "url": "http://localhost:3001/projects/haldiram-d2c"
+  },
+  {
+    "device": "desktop",
+    "test": "contact featured card",
+    "expected": "/projects/aditya-birla-calculator",
+    "url": "http://localhost:3001/projects/aditya-birla-calculator"
+  },
+  {
+    "device": "desktop",
+    "test": "expertise 1. React & Next.js Development link 0",
+    "expected": "/projects/haldiram-d2c",
+    "url": "http://localhost:3001/projects/haldiram-d2c"
+  },
+  {
+    "device": "desktop",
+    "test": "expertise 1. React & Next.js Development link 1",
+    "expected": "/projects/haldiram-d2c",
+    "url": "http://localhost:3001/projects/haldiram-d2c"
+  },
+  {
+    "device": "desktop",
+    "test": "expertise 2. API Integration & Dynamic Content link 0",
+    "expected": "/projects/aditya-birla-calculator",
+    "url": "http://localhost:3001/projects/aditya-birla-calculator"
+  },
+  {
+    "device": "desktop",
+    "test": "expertise 2. API Integration & Dynamic Content link 1",
+    "expected": "/projects/aditya-birla-calculator",
+    "url": "http://localhost:3001/projects/aditya-birla-calculator"
+  },
+  {
+    "device": "desktop",
+    "test": "expertise 3. Responsive Interface Development link 0",
+    "expected": "/projects/taxi-booking",
+    "url": "http://localhost:3001/projects/taxi-booking"
+  },
+  {
+    "device": "desktop",
+    "test": "expertise 3. Responsive Interface Development link 1",
+    "expected": "/projects/taxi-booking",
+    "url": "http://localhost:3001/projects/taxi-booking"
+  },
+  {
+    "device": "desktop",
+    "test": "expertise 4. State & Component Architecture link 0",
+    "expected": "/projects/full-stack-ecommerce",
+    "url": "http://localhost:3001/projects/full-stack-ecommerce"
+  },
+  {
+    "device": "desktop",
+    "test": "expertise 4. State & Component Architecture link 1",
+    "expected": "/projects/full-stack-ecommerce",
+    "url": "http://localhost:3001/projects/full-stack-ecommerce"
+  },
+  {
+    "device": "desktop",
+    "test": "expertise 5. Backend & Form Integration link 0",
+    "expected": "/projects/taxi-booking",
+    "url": "http://localhost:3001/projects/taxi-booking"
+  },
+  {
+    "device": "desktop",
+    "test": "expertise 5. Backend & Form Integration link 1",
+    "expected": "/projects/taxi-booking",
+    "url": "http://localhost:3001/projects/taxi-booking"
+  },
+  {
+    "device": "desktop",
+    "test": "/ Back to top",
+    "url": "http://localhost:3001/#main"
+  },
+  {
+    "device": "desktop",
+    "test": "footer smooth return",
+    "top": 0
+  },
+  {
+    "device": "desktop",
+    "test": "/ link and image integrity",
+    "data": {
+      "brokenImages": [],
+      "missingHashTargets": [],
+      "overflow": false
+    }
+  },
+  {
+    "device": "desktop",
+    "test": "/contact link and image integrity",
+    "data": {
+      "brokenImages": [],
+      "missingHashTargets": [],
+      "overflow": false
+    }
+  },
+  {
+    "device": "desktop",
+    "test": "/projects/haldiram-d2c link and image integrity",
+    "data": {
+      "brokenImages": [],
+      "missingHashTargets": [],
+      "overflow": false
+    }
+  },
+  {
+    "device": "desktop",
+    "test": "/projects/aditya-birla-calculator link and image integrity",
+    "data": {
+      "brokenImages": [],
+      "missingHashTargets": [],
+      "overflow": false
+    }
+  },
+  {
+    "device": "desktop",
+    "test": "/projects/full-stack-ecommerce link and image integrity",
+    "data": {
+      "brokenImages": [],
+      "missingHashTargets": [],
+      "overflow": false
+    }
+  },
+  {
+    "device": "desktop",
+    "test": "/projects/taxi-booking link and image integrity",
+    "data": {
+      "brokenImages": [],
+      "missingHashTargets": [],
+      "overflow": false
+    }
+  },
+  {
+    "device": "mobile",
+    "test": "/ link and image integrity",
+    "data": {
+      "brokenImages": [],
+      "missingHashTargets": [],
+      "overflow": false
+    }
+  },
+  {
+    "device": "mobile",
+    "test": "/contact link and image integrity",
+    "data": {
+      "brokenImages": [],
+      "missingHashTargets": [],
+      "overflow": false
+    }
+  },
+  {
+    "device": "mobile",
+    "test": "/projects/haldiram-d2c link and image integrity",
+    "data": {
+      "brokenImages": [],
+      "missingHashTargets": [],
+      "overflow": false
+    }
+  },
+  {
+    "device": "mobile",
+    "test": "/projects/aditya-birla-calculator link and image integrity",
+    "data": {
+      "brokenImages": [],
+      "missingHashTargets": [],
+      "overflow": false
+    }
+  },
+  {
+    "device": "mobile",
+    "test": "/projects/full-stack-ecommerce link and image integrity",
+    "data": {
+      "brokenImages": [],
+      "missingHashTargets": [],
+      "overflow": false
+    }
+  },
+  {
+    "device": "mobile",
+    "test": "/projects/taxi-booking link and image integrity",
+    "data": {
+      "brokenImages": [],
+      "missingHashTargets": [],
+      "overflow": false
+    }
+  },
+  {
+    "device": "320px",
+    "test": "/ responsive",
+    "bodyWidth": 305,
+    "overflow": false,
+    "viewport": 320
+  },
+  {
+    "device": "320px",
+    "test": "/contact responsive",
+    "bodyWidth": 305,
+    "overflow": false,
+    "viewport": 320
+  },
+  {
+    "device": "320px",
+    "test": "/projects/haldiram-d2c responsive",
+    "bodyWidth": 305,
+    "overflow": false,
+    "viewport": 320
+  },
+  {
+    "device": "320px",
+    "test": "/projects/aditya-birla-calculator responsive",
+    "bodyWidth": 305,
+    "overflow": false,
+    "viewport": 320
+  },
+  {
+    "device": "320px",
+    "test": "/projects/full-stack-ecommerce responsive",
+    "bodyWidth": 305,
+    "overflow": false,
+    "viewport": 320
+  },
+  {
+    "device": "320px",
+    "test": "/projects/taxi-booking responsive",
+    "bodyWidth": 305,
+    "overflow": false,
+    "viewport": 320
+  },
+  {
+    "device": "375px",
+    "test": "/ responsive",
+    "bodyWidth": 360,
+    "overflow": false,
+    "viewport": 375
+  },
+  {
+    "device": "375px",
+    "test": "/contact responsive",
+    "bodyWidth": 360,
+    "overflow": false,
+    "viewport": 375
+  },
+  {
+    "device": "375px",
+    "test": "/projects/haldiram-d2c responsive",
+    "bodyWidth": 360,
+    "overflow": false,
+    "viewport": 375
+  },
+  {
+    "device": "375px",
+    "test": "/projects/aditya-birla-calculator responsive",
+    "bodyWidth": 360,
+    "overflow": false,
+    "viewport": 375
+  },
+  {
+    "device": "375px",
+    "test": "/projects/full-stack-ecommerce responsive",
+    "bodyWidth": 360,
+    "overflow": false,
+    "viewport": 375
+  },
+  {
+    "device": "375px",
+    "test": "/projects/taxi-booking responsive",
+    "bodyWidth": 360,
+    "overflow": false,
+    "viewport": 375
+  },
+  {
+    "device": "768px",
+    "test": "/ responsive",
+    "bodyWidth": 753,
+    "overflow": false,
+    "viewport": 768
+  },
+  {
+    "device": "768px",
+    "test": "/contact responsive",
+    "bodyWidth": 753,
+    "overflow": false,
+    "viewport": 768
+  },
+  {
+    "device": "768px",
+    "test": "/projects/haldiram-d2c responsive",
+    "bodyWidth": 753,
+    "overflow": false,
+    "viewport": 768
+  },
+  {
+    "device": "768px",
+    "test": "/projects/aditya-birla-calculator responsive",
+    "bodyWidth": 753,
+    "overflow": false,
+    "viewport": 768
+  },
+  {
+    "device": "768px",
+    "test": "/projects/full-stack-ecommerce responsive",
+    "bodyWidth": 753,
+    "overflow": false,
+    "viewport": 768
+  },
+  {
+    "device": "768px",
+    "test": "/projects/taxi-booking responsive",
+    "bodyWidth": 753,
+    "overflow": false,
+    "viewport": 768
+  },
+  {
+    "device": "1024px",
+    "test": "/ responsive",
+    "bodyWidth": 1009,
+    "overflow": false,
+    "viewport": 1024
+  },
+  {
+    "device": "1024px",
+    "test": "/contact responsive",
+    "bodyWidth": 1009,
+    "overflow": false,
+    "viewport": 1024
+  },
+  {
+    "device": "1024px",
+    "test": "/projects/haldiram-d2c responsive",
+    "bodyWidth": 1009,
+    "overflow": false,
+    "viewport": 1024
+  },
+  {
+    "device": "1024px",
+    "test": "/projects/aditya-birla-calculator responsive",
+    "bodyWidth": 1009,
+    "overflow": false,
+    "viewport": 1024
+  },
+  {
+    "device": "1024px",
+    "test": "/projects/full-stack-ecommerce responsive",
+    "bodyWidth": 1009,
+    "overflow": false,
+    "viewport": 1024
+  },
+  {
+    "device": "1024px",
+    "test": "/projects/taxi-booking responsive",
+    "bodyWidth": 1009,
+    "overflow": false,
+    "viewport": 1024
+  },
+  {
+    "device": "mobile",
+    "test": "folder closes after scrolling past",
+    "open": "0"
+  },
+  {
+    "device": "mobile",
+    "test": "top pill returns to top",
+    "scrollY": 0
+  },
+  {
+    "device": "desktop",
+    "test": "reload card bounce",
+    "state": "swinging"
+  },
+  {
+    "device": "desktop",
+    "test": "card drag release",
+    "state": "swinging",
+    "transform": "transform: translate3d(64.8121px, -3.33079px, 0px) rotateZ(-6.73371deg) rotateY(-1.36644deg) rotateX(-2.32823deg);"
+  },
+  {
+    "device": "desktop",
+    "test": "timeline end fill",
+    "progress": "1.000"
+  },
+  {
+    "device": "desktop",
+    "test": "timeline reverses",
+    "progress": "0.000"
+  },
+  {
+    "device": "desktop",
+    "test": "surprise download and reset",
+    "reset": true
+  },
+  {
+    "device": "desktop",
+    "test": "skip to content",
+    "url": "http://localhost:3001/#main",
+    "focused": ""
+  },
+  {
+    "device": "mobile",
+    "test": "skip to content",
+    "url": "http://localhost:3001/#main",
+    "focused": ""
+  }
+]
