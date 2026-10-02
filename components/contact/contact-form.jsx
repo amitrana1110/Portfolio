@@ -1,43 +1,41 @@
 "use client";
 import { useState } from "react";
-import { ArrowUpRight, LoaderCircle } from "lucide-react";
+import { ArrowUpRight } from "lucide-react";
+import { gmailDraft } from "@/lib/gmail-draft";
 import { portfolio } from "@/data/portfolio";
-export function ContactForm({ configured }) {
-  const [status, setStatus] = useState("idle");
-  const [message, setMessage] = useState("");
-  async function submit(event) {
+export function ContactForm() {
+  const [draft, setDraft] = useState(null);
+  function submit(event) {
     event.preventDefault();
-    if (status === "loading") return;
-    setStatus("loading");
-    setMessage("");
     const form = event.currentTarget;
     const data = Object.fromEntries(new FormData(form));
-    try {
-      const result = await fetch("/api/contact", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(data),
-        signal: AbortSignal.timeout(20000),
-      });
-      const response = await result.json();
-      if (!result.ok)
-        throw new Error(response.error || "Unable to send your message.");
-      setStatus("success");
-      setMessage("Your message was sent. Thank you for reaching out.");
-      form.reset();
-    } catch (error) {
-      setStatus("error");
-      setMessage(
-        error?.name === "TimeoutError"
-          ? "The request timed out. Please try again or email directly."
-          : error instanceof Error
-          ? error.message
-          : "Unable to send. Please try again.",
-      );
+    if (!data.name.trim()) {
+      form.elements.name.setCustomValidity("Please enter your name.");
+      form.reportValidity();
+      return;
+    }
+    if (data.message.trim().length < 10) {
+      form.elements.message.setCustomValidity("Please enter at least 10 characters.");
+      form.reportValidity();
+      return;
+    }
+    const urls = gmailDraft({ ...data, recipient: portfolio.email }, navigator.userAgent);
+    setDraft(urls.web);
+    if (urls.app === urls.web) {
+      window.open(urls.web, "_blank", "noopener,noreferrer");
+    } else {
+      window.location.assign(urls.app);
     }
   }
   return (
-    <form onSubmit={submit} className="contact-form">
+    <form
+      onSubmit={submit}
+      onInput={(event) => {
+        event.target.setCustomValidity?.("");
+        setDraft(null);
+      }}
+      className="contact-form"
+    >
       <div className="field">
         <label htmlFor="name">
           Name <span>*</span>
@@ -92,50 +90,28 @@ export function ContactForm({ configured }) {
           rows={5}
         />
       </div>
-      <div className="honeypot" aria-hidden="true">
-        <label htmlFor="website">Website</label>
-        <input id="website" name="website" tabIndex={-1} autoComplete="off" />
-      </div>
-      {!configured && (
-        <p className="form-notice">
-          Message delivery is not configured yet.
-          {portfolio.email ? (
-            <>
-              {" "}
-              You can <a href={`mailto:${portfolio.email}`}>
-                email directly
-              </a>{" "}
-              in the meantime.
-            </>
-          ) : (
-            " Contact details will be added from the resume."
-          )}
-        </p>
-      )}
-      <button
-        type="submit"
-        disabled={!configured || status === "loading"}
-        className="button primary submit"
-      >
-        {status === "loading" ? (
-          <>
-            <LoaderCircle className="spin" size={18} />
-            Sending…
-          </>
-        ) : (
-          <>
-            Send message
-            <ArrowUpRight size={18} />
-          </>
-        )}
-      </button>
-      <p
-        role={status === "error" ? "alert" : "status"}
-        aria-live="polite"
-        className={`form-result ${status}`}
-      >
-        {message}
+      <p className="form-notice">
+        Opens a draft in Gmail with your details filled in. Review it and tap
+        Send there.
       </p>
+      <button type="submit" className="button primary submit">
+        Send message
+        <ArrowUpRight size={18} />
+      </button>
+      {draft && (
+        <div className="form-result" role="status" aria-live="polite">
+          <p>Your draft is ready. Your message has not been sent yet.</p>
+          <a
+            href={draft}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="button"
+          >
+            Open Gmail in browser
+            <ArrowUpRight size={16} />
+          </a>
+        </div>
+      )}
     </form>
   );
 }

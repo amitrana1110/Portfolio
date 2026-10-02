@@ -27,16 +27,13 @@ Satoshi fonts are served locally with Next.js font optimization; the decorative 
 
 ## Contact delivery
 
-Copy `.env.example` to `.env.local` and set:
+The contact page opens a Gmail draft addressed to `portfolio.email`, with the visitor’s name, email, enquiry type, and message filled in. Visitors review and send the message in Gmail. The form validates required fields and retains its contents after opening the draft. It does not need a Resend key or report a message as sent.
 
-- `RESEND_API_KEY`: server-side email API key.
-- `CONTACT_FROM_EMAIL`: sender verified with Resend.
-- `CONTACT_TO_EMAIL`: your inbox (rana.amit.1110@gmail.com).
-- `NEXT_PUBLIC_SITE_URL`: your deployed origin for SEO metadata.
+On Android it targets the Gmail app with a browser fallback; on iPhone/iPad it attempts the Gmail compose link. An “Open Gmail in browser” link is available after submission if the app cannot open. Desktop opens Gmail web in a new tab. App handling depends on the installed apps/browser, and Gmail may require sign-in. The entered email is included in the body; the actual sender is the visitor’s signed-in Gmail account.
 
-The contact form has native field validation plus server-side validation and honest loading/error/success states. Without credentials, it explains the setup requirement and offers a working direct email link. The homepage's three-step flow prepares a mailto draft; it clearly states that sending happens in the visitor's email app. It never shows a false sent state.
+The homepage's desktop three-step flow continues to prepare a mailto draft. The optional `/api/contact` endpoint is retained for future server-side delivery but is no longer called by the contact form. See [Production setup](docs/PRODUCTION.md) for configuration and endpoint protections.
 
-The endpoint includes origin protection, bounded JSON streaming (16 KB), field validation, a honeypot, provider timeout, and a bounded process-local limit of five attempts per ten minutes. See [Production setup](docs/PRODUCTION.md) for proxy trust, multi-instance limits, and deployment configuration.
+Set `NEXT_PUBLIC_SITE_URL` to your deployed HTTPS origin before building for public SEO metadata.
 
 ## Motion and interactions
 

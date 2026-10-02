@@ -13,13 +13,7 @@ export const metadata = {
   description:
     "Contact Amit Singh Rana about frontend development, a project, or a career opportunity.",
 };
-export const dynamic = "force-dynamic";
 export default function Contact() {
-  const configured = !!(
-    process.env.RESEND_API_KEY &&
-    process.env.CONTACT_TO_EMAIL &&
-    process.env.CONTACT_FROM_EMAIL
-  );
   return (
     <>
       <section id="contact-form" className="contact-section">
@@ -32,7 +26,7 @@ export default function Contact() {
           Let’s talk about your next project or opportunity.
         </p>
         <div className="contact-grid" data-reveal>
-          <ContactForm configured={configured} />
+          <ContactForm />
           <aside className="contact-profile">
             <TiltSurface className="contact-portrait">
               <Avatar large />
